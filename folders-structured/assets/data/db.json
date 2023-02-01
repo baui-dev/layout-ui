@@ -19,10 +19,70 @@
       "id": 3
     },
     {
-      "title": "wd",
-      "details": "wqd",
-      "category": "todos",
+      "title": "test",
+      "details": "test",
+      "category": "money",
       "id": 4
+    },
+    {
+      "title": "kuhvbzugh",
+      "details": "gffgd",
+      "category": "todos",
+      "id": 5
+    },
+    {
+      "title": "gf",
+      "details": "fg",
+      "category": "money",
+      "id": 6
+    },
+    {
+      "title": "fg",
+      "details": "gf",
+      "category": "money",
+      "id": 7
+    },
+    {
+      "title": "gffg",
+      "details": "fg",
+      "category": "work",
+      "id": 8
+    },
+    {
+      "title": "wef",
+      "details": "ewf",
+      "category": "work",
+      "id": 9
+    },
+    {
+      "title": "wfe",
+      "details": "\n\n    I have recently started using Web Assembly for some of my projects. I am doing this because I heard that wasm is faster than javascript.\n\nWebAssembly is faster than JavaScript, but only for certain use-cases. With WebAssembly your browser has to do less work to download and compile your code, giving it faster start-up times. However, when the runtime performance of WebAssembly is typically only 2 to 3 times faster than JavaScript. See the following article for a very good and practical comparison:\n\nhttps://hacks.mozilla.org/2018/01/oxidizing-source-maps-with-rust-and-webassembly/\n\nHowever, WebAssembly has no direct DOM access, so despite its superior performance, you may find that it is slower than JavaScript for your use case due to extra I/O overhead.\n\nFor this reason, currently people are finding most success with WebAssembly for algorithmic / compute-intensive tasks.\n\n    i realized that I didnt know how to manipuate the dom in c++. Is there any way to do this using wasm?\n\nIn order to manipulate the DOM you have to do this via the JavaScript host - your WebAssembly module has to send messages to JavaScript 'asking' it to manipulate the DOM on its behalf.\n\nAs this is quite a common challenge, there are various community project that have solutions to the problem. As you are using C++, this one might be of interest to you:\n\nhttps://github.com/mbasso/asm-dom\n\nIn the future, this will get easier, proposals such as Interface Types are making it easier to interop with the host environment and could allow Web APIs to be called directly from WebAssembly.\n",
+      "category": "money",
+      "id": 10
+    },
+    {
+      "title": "ewfs",
+      "details": "esf",
+      "category": "todos",
+      "id": 11
+    },
+    {
+      "title": "fff",
+      "details": "fff",
+      "category": "todos",
+      "id": 12
+    },
+    {
+      "title": "sdf",
+      "details": "sdf",
+      "category": "reminders",
+      "id": 13
+    },
+    {
+      "title": "sdf",
+      "details": "sdf",
+      "category": "work",
+      "id": 14
     }
   ]
 }
